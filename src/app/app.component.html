@@ -1,0 +1,6 @@
+<h1 *ngFor="let key of names">{{'Hello Mr ' + key['name']  }}</h1>
+
+
+
+<input type="text"  [(ngModel)]="name" />
+<button type="button" (click)="addProduct()">Add Product</button>
